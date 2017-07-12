@@ -47,6 +47,7 @@
       @d container {
         position: relative;
         size: 100% 10px;
+        border: 1px solid #DDD;
         display: flex;
         &.active {
           &::after {
