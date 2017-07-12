@@ -28,12 +28,15 @@
     },
     methods: {
       handleStyle (item) {
-        return {
+        const color = item.toString()
+        const style = {
           background: [
-            `-webkit-linear-gradient(to top, ${item[0]}, ${item[1]})`,
-            `linear-gradient(to top, ${item[0]}, ${item[1]})`
+            `-webkit-linear-gradient(-45deg, ${color})`,
+            `linear-gradient(-45deg, ${color})`
           ]
         }
+
+        return style
       }
     }
   }
@@ -70,7 +73,6 @@
 
       @d item {
         size: 100%;
-        animation: movestripe 1.2s linear infinite;
 
         @d text {
           font-size: 12px 10px;

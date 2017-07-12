@@ -1,7 +1,11 @@
 <template>
   <div class="example-container">
     <div class="example-item">
-      <label>XG~GD</label>
+      <label>GD</label>
+      <gsr-skillbar :items="itemsA" :animation="false" />
+    </div>
+    <div class="example-item">
+      <label>XG</label>
       <gsr-skillbar :items="itemsA" />
     </div>
     <div class="example-item">
@@ -20,12 +24,14 @@
           { name: 'XG2', color: ['#FF0000', '#FFFFFF'] },
           { name: 'XG3', color: ['#FFFFFF', '#FFFFFF'] },
           { name: 'GD', color: ['#FF0000', '#FFFFFF'] },
-          { name: 'GDOD', color: ['#DD8844', '#DD8844'] }
+          { name: 'GDOD', color: ['#DD8844', '#DD8844'] },
+          { name: 'GDTB', color: ['#3366FF', '#FF00FF', '#FF0000', '#FFFF99', '#FFFF00', '#33FF00', '#FF00FF', '#3366FF'] }
         ],
         itemsB: [
           { name: 'V5', color: ['#80C0FF', '#80C0FF'] },
           { name: 'V6', color: ['#FFFF00', '#FFFF00'] },
           { name: 'V7', color: ['#00FF00', '#00FF00'] },
+          { name: 'V8', color: ['#FF0000', '#FF0000'] },
           { name: 'V8', color: ['#FF0000', '#FF0000'] }
         ]
       }
