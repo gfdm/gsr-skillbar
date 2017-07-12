@@ -78,7 +78,7 @@
           font-size: 12px 10px;
           color: inherit;
           text-align: center;
-          text-shadow: 1px 1px 0 #FFF;
+          text-shadow: 0px 0px 2px #FFF;
           display: block;
         }
       }
