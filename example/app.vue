@@ -6,7 +6,7 @@
     </div>
     <div class="example-item">
       <label>V</label>
-      <gsr-skillbar :items="itemsB" />
+      <gsr-skillbar :items="itemsB" :animation="false" />
     </div>
   </div>
 </template>
