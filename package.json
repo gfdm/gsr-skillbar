@@ -2,7 +2,7 @@
   "name": "gsr-skillbar",
   "version": "0.1.0",
   "description": "Skill bar component for GSR",
-  "main": "lib/index.js",
+  "main": "lib/gsr-skillbar.js",
   "repository": "git@git.github.com:jikkai/gsr-skillbar.git",
   "author": "Jikkai Xiao <sonne@asaki.me>",
   "license": "GPL-3.0",
