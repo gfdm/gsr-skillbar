@@ -44,7 +44,7 @@
         position: relative;
         size: 100% 10px;
         display: flex;
-        &::after {
+        /*&::after {
           content: "";
           position: absolute;
           size: 100%;
@@ -58,7 +58,7 @@
             rgba(0, 0, 0, .2) 75%);
           background-size: 10px 10px;
           animation: movestripe 1.2s linear infinite;
-        }
+        }*/
       }
 
       @d item {
