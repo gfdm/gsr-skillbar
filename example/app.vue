@@ -16,35 +16,17 @@
     data () {
       return {
         itemsA: [
-          ['#FFFFFF', '#FFFFFF'],
-          ['#FFFF99', '#FFFF99'],
-          ['#FFFF99', '#FFFFFF'],
-          ['#FFFF00', '#FFFF00'],
-          ['#FFFF00', '#FFFFFF'],
-          ['#33FF00', '#33FF00'],
-          ['#33FF00', '#FFFFFF'],
-          ['#3366FF', '#3366FF'],
-          ['#3366FF', '#FFFFFF'],
-          ['#FF00FF', '#FF00FF'],
-          ['#FF00FF', '#FFFFFF'],
-          ['#FF0000', '#FF0000'],
-          ['#FF0000', '#FFFFFF'],
-          ['#DD8844', '#DD8844'],
-          ['silver', 'silver'],
-          ['#FFD700', '#FFD700']
+          { name: 'XG', color: ['#3366FF', '#FFFFFF'] },
+          { name: 'XG2', color: ['#FF0000', '#FFFFFF'] },
+          { name: 'XG3', color: ['#FFFFFF', '#FFFFFF'] },
+          { name: 'GD', color: ['#FF0000', '#FFFFFF'] },
+          { name: 'GDOD', color: ['#DD8844', '#DD8844'] }
         ],
         itemsB: [
-          ['#808080', '#808080'],
-          ['#FF8080', '#FF8080'],
-          ['#FF00FF', '#FF00FF'],
-          ['#80C0FF', '#80C0FF'],
-          ['#00FFFF', '#00FFFF'],
-          ['#00FF00', '#00FF00'],
-          ['#FFFF00', '#FFFF00'],
-          ['#FFC000', '#FFC000'],
-          ['#FF0000', '#FF0000'],
-          ['#C0C0C0', '#C0C0C0'],
-          ['#FF8000', '#FF8000']
+          { name: 'V5', color: ['#80C0FF', '#80C0FF'] },
+          { name: 'V6', color: ['#FFFF00', '#FFFF00'] },
+          { name: 'V7', color: ['#00FF00', '#00FF00'] },
+          { name: 'V8', color: ['#FF0000', '#FF0000'] }
         ]
       }
     }

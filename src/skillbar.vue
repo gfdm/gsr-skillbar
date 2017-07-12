@@ -5,8 +5,10 @@
         class="gsr-skillbar__item"
         v-for="(item, key) in items"
         :key="key"
-        :style="handleStyle(item)"
-      ></div>
+        :style="handleStyle(item.color)"
+      >
+        <span class="gsr-skillbar__item__text">{{ item.name }}</span>
+      </div>
     </div>
   </div>
 </template>
@@ -39,14 +41,9 @@
       width: 100%;
 
       @d container {
+        position: relative;
         size: 100% 10px;
         display: flex;
-      }
-
-      @d item {
-        position: relative;
-        size: 100%;
-        animation: movestripe 1.2s linear infinite;
         &::after {
           content: "";
           position: absolute;
@@ -61,6 +58,19 @@
             rgba(0, 0, 0, .2) 75%);
           background-size: 10px 10px;
           animation: movestripe 1.2s linear infinite;
+        }
+      }
+
+      @d item {
+        size: 100%;
+        animation: movestripe 1.2s linear infinite;
+
+        @d text {
+          font-size: 12px 10px;
+          color: inherit;
+          text-align: center;
+          text-shadow: 1px 1px 0 #FFF;
+          display: block;
         }
       }
     }
